@@ -1,0 +1,2 @@
+main: http_conn.cpp http_conn.h locker.h  threadpool.h Utils.cpp Utils.h webserver.cpp webserver.h lst_timer.h main.cpp block_queue.h log.h log.cpp sql_connection_pool.h sql_connection_pool.cpp
+	g++ http_conn.cpp http_conn.h locker.h  threadpool.h Utils.cpp Utils.h webserver.cpp webserver.h lst_timer.h main.cpp block_queue.h log.h log.cpp sql_connection_pool.h sql_connection_pool.cpp `mysql_config --libs` -o main -lpthread -std=c++11
