@@ -21,8 +21,7 @@ int main(int argc, char *argv[])
     server.eventListen();
 
     //运行
-    //server.eventLoop();
-	server.eventLoop_src();
+    server.eventLoop_src();
 
     return 0;
 }
